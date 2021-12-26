@@ -1,0 +1,46 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 30px 0;
+}
+
+.cardInfo__aboutUs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.51);
+  padding: 30px 0;
+}
+
+.imageDiv__aboutUs {
+  width: 50%;
+  /*background-color: red;*/
+}
+
+.image__aboutUs {
+  width: 60%;
+}
+
+.info__aboutUs {
+  width: 45%;
+}
+
+.h2__aboutUs,
+.p__aboutUs {
+  color: white;
+  padding: 0 10px;
+}
+
+.imageDiv__aboutUs {
+  text-align: center;
+}
+
+.h2__aboutUs {
+  box-shadow: 1px -1px 21px 11px rgba(165, 156, 85, 0.2);
+}
+.p__aboutUs {
+  margin-right: 10px;
+}

@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: Century;
+  background-color: rgba(0, 0, 0, 0.51);
+  font-size: 10px;
+}
+
+.welcome {
+  margin-top: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.modal-backdrop{
+  background-color:  rgba(0, 0, 0, 0.3);;
+}
+.modal-content{
+  padding: 14px;
+}
+.wrapper {
+  z-index: 999999;
+}

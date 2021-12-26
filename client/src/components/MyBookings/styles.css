@@ -1,0 +1,188 @@
+.bookingsMainBlock {
+  width: 60%;
+  margin: 15px auto;
+  color: white;
+  padding: 30px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.booking-tables button {
+  margin: 0px 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.booking-dishes img {
+  width: 120px;
+  border-radius: 10px;
+}
+.booking-dishes {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+}
+.phone-div input,
+.phone-div input[disabled]
+{
+  color: white!important;
+}
+.phone-div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.final-price {
+  font-size: 26px;
+}
+.booking-actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-actions b {
+  color: red;
+}
+.hidden {
+  display: none;
+}
+.div-confirmed {
+  color: green;
+  font-size: 20px;
+}
+.booking-actions button {
+  width: 180px;
+  height: 40px;
+  outline: none;
+}
+
+
+.loader {
+  overflow:hidden;
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  background: #65abf8;
+  background: -moz-linear-gradient(left, #65abf8 10%, rgba(101,171,248, 0) 42%);
+  background: -webkit-linear-gradient(left, #65abf8 10%, rgba(101,171,248, 0) 42%);
+  background: -o-linear-gradient(left, #65abf8 10%, rgba(101,171,248, 0) 42%);
+  background: -ms-linear-gradient(left, #65abf8 10%, rgba(101,171,248, 0) 42%);
+  background: linear-gradient(to right, #65abf8 10%, rgba(101,171,248, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #65abf8;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: transparent;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.delete-loader,
+.delete-loader:before,
+.delete-loader:after {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.delete-loader {
+  color: #65abf8;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.delete-loader:before,
+.delete-loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.delete-loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.delete-loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+.loader-small {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  line-height: 10px;
+}
